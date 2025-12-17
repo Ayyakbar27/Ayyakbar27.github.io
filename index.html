@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya - [Muh. akbar ramadan]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        section {
+            margin: 50px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill, .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 300px;
+            transition: transform 0.3s;
+        }
+        .skill:hover, .project:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profil.jpeg" alt="Foto Profil" class="profile-img">
+            <h1>[Muh. akbar ramadan]</h1>
+            <p>[Web Developer & Designer]</p>
+            <p>["Menciptakan pengalaman digital yang luar biasa"]</p>
+        </header>
+
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>[Saya mahasiswa semester 3 dikampus stmik adhiguna, yang baru belajar website dasar. Saya memiliki ketertarikan terhadap pengolahan data dan informasi menggunakan teknologi komputer, perancangan, analisis, dan penerapan teknologi untuk menyelesaikan masalah, mulai dari pemrograman, sistem informasi, hingga keamanan siber, menjadikannya dasar dari berbagai teknologi digital modern..]</p>
+        </section>
+
+        <section id="skills">
+            <h2>Keterampilan</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML/CSS</h3>
+                    <p>Ahli dalam membuat layout responsif dan modern.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Mengembangkan interaktivitas dan aplikasi web.</p>
+                </div>
+                <div class="skill">
+                    <h3>Design</h3>
+                    <p>Menggunakan Figma untuk UI/UX yang menarik.</p>
+                </div>
+                <!-- Tambahkan skill lainnya -->
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Proyek 1</h3>
+                    <p>Membuat website. <a href="belum memiliki"></a></p>
+                </div>
+                <div class="project">
+                    <h3>Proyek 2</h3>
+                    <p>Menganalisis data. <a href="belum memiliki"></a></p>
+                </div>
+                <!-- Tambahkan proyek lainnya -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p>Email: <a href="akbarari801z@gmail.com">akbarai801z@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Ayyakbar27">github.com/Ayyakbar27</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Akbar]. Dibuat dengan ❤️ menggunakan HTML/CSS.</p>
+    </footer>
+</body>
+</html>
